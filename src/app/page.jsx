@@ -1,7 +1,13 @@
-import React from 'react'
 
-export default function Home() {
+
+import Header from '@/components/header/header'
+
+function HomePage() {
   return (
-    <div>Home</div>
+    <div>
+      <Header/>
+    </div>
   )
 }
+
+export default HomePage
