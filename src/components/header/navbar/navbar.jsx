@@ -21,7 +21,7 @@ export const Navbar = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <nav className="flex justify-around items-center bg-gray-300 p-4  mx-40 rounded-b-xl ">
+    <nav className="flex justify-around items-center bg-white p-4  mx-40 rounded-b-xl ">
       <Link href="/">
         <Image src={Logo} alt="لوگو" width={100} height={50} priority />
       </Link>

@@ -4,10 +4,10 @@ import { BiSearch } from "react-icons/bi";
 
 export const SearchBox = ({ isSearchOpen, setIsSearchOpen }) => {
   return (
-    <div className="flex mx-40 gap-5">
+    <div className="flex  gap-5">
       <button
         variant="outline"
-        className="flex items-center gap-2"
+        className="flex items-center "
         onClick={() => setIsSearchOpen(!isSearchOpen)}
       >
         <BiSearch className="text-xl" />
@@ -17,7 +17,7 @@ export const SearchBox = ({ isSearchOpen, setIsSearchOpen }) => {
         <input
           type="text"
           placeholder="جستجو کنید..."
-          className="border border-gray-300 rounded-lg px-3 py-2 outline-none w-60"
+          className="rounded-md focus:outline-none focus:ring-0 border-none"
         />
       )}
     </div>
