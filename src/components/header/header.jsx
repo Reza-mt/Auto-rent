@@ -10,13 +10,11 @@ const Header = () => {
         style={{ backgroundImage: "url('../../../image/Ford.png')", transform: "scaleX(-1)" }}
       ></div>
 
-  
       <div className="relative z-10 w-full">
         <Navbar />
       </div>
 
-      
-      <div className="relative z-10 flex flex-col  flex-1">
+      <div className="relative z-10 flex flex-col flex-1">
         <HearoHeaderText />
       </div>
     </div>
