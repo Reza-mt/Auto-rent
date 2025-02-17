@@ -3,8 +3,8 @@ import { HearoHeaderButton } from "./hearoHeaderButton";
 
 export const HearoHeaderText = () => {
   return (
-    <div className=" mx-44 my-52  ">
-      <h2 className="flex flex-col  font-bold text-4xl  text-yellow-400 ">
+    <div className="flex flex-col mx-44 my-52  ">
+      <h2 className="flex flex-col font-bold text-4xl  text-yellow-400 ">
         اُتـــو رِنت؛ سریع،
         <span>آسان و به صرفه</span>
       </h2>

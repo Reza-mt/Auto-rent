@@ -14,7 +14,7 @@ const Header = () => {
         <Navbar />
       </div>
 
-      <div className="relative z-10 flex flex-col flex-1">
+      <div className="relative  z-10 flex flex-col flex-1">
         <HearoHeaderText />
       </div>
     </div>
