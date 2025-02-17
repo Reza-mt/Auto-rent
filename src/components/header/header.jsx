@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar } from './navbar/navbar'
 import { HearoHeaderText } from './heroheader/hearoHeaderText'
+import { RentBox } from './rentbox/rentBox';
 
 const Header = () => {
   return (
@@ -16,6 +17,9 @@ const Header = () => {
 
       <div className="relative  z-10 flex flex-col flex-1">
         <HearoHeaderText />
+      </div>
+      <div className="z-20 flex justify-center -mt-24">
+        <RentBox/>
       </div>
     </div>
   );
