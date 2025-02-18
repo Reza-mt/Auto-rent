@@ -2,16 +2,16 @@
 import { motion } from "framer-motion";
 
 const logos = [
-  "/image/BMW.png",
-  "/image/lexus.png",
-  "/image/Mercedes.png",
-  "/image/Honda.png",
-  "/image/Hyundai.png",
-  "/image/Nissan.png",
-  "/image/Toyota.png",
-  "/image/Kia.png",
-  "/image/Jeep.png",
-  "/image/Land.png",
+  "/image/logos/BMW.png",
+  "/image/logos/lexus.png",
+  "/image/logos/Mercedes.png",
+  "/image/logos/Honda.png",
+  "/image/logos/Hyundai.png",
+  "/image/logos/Nissan.png",
+  "/image/logos/Toyota.png",
+  "/image/logos/Kia.png",
+  "/image/logos/Jeep.png",
+  "/image/logos/Land.png",
 ];
 
 export const LogoSlider = () => {
