@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar } from './navbar/navbar'
 import { HearoHeaderText } from './heroheader/hearoHeaderText'
 import { RentBox } from './rentbox/rentBox';
+import { LogoSlider } from './logo/logoSlider';
 
 const Header = () => {
   return (
@@ -21,6 +22,7 @@ const Header = () => {
       <div className="z-20 flex justify-center -mt-24">
         <RentBox/>
       </div>
+      <LogoSlider/>
     </div>
   );
 };
