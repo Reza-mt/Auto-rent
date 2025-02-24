@@ -1,9 +1,9 @@
 import React from "react";
 
 const card = [
-  { img: "/svg/professional1.svg", title: "قیمت مناسب", dis: "هدف ما، ارائه بهترین خدمات با مناسب ترین قیمت ممکن است." },
-  { img: "/svg/professional2.svg", title: "پشتیبانی 24 ساعته", dis: "کارشناسان ما در هر زمان و مکان، پاسخگوی سوالات شما خواهند بود." },
-  { img: "/svg/professional3.svg", title: "تحویل در محل", dis: "تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود." },
+  { img: "/svg/professional/professional1.svg", title: "قیمت مناسب", dis: "هدف ما، ارائه بهترین خدمات با مناسب ترین قیمت ممکن است." },
+  { img: "/svg/professional/professional2.svg", title: "پشتیبانی 24 ساعته", dis: "کارشناسان ما در هر زمان و مکان، پاسخگوی سوالات شما خواهند بود." },
+  { img: "/svg/professional/professional3.svg", title: "تحویل در محل", dis: "تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود." },
 ];
 
 export const CardServices = () => {
