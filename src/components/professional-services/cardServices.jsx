@@ -10,7 +10,7 @@ export const CardServices = () => {
   return (
     <div className="relative z-10 -mt-28 flex justify-center gap-14  ">
       {card.map((item, index) => (
-        <div key={index} className="w-1/5 bg-white py-8 border-4 rounded-3xl shadow-md flex flex-col items-center">
+        <div key={index} className="w-1/5 bg-white py-8 border rounded-3xl shadow-md flex flex-col items-center">
           <div className="w-16 h-16" >
             <img src={item.img} alt={item.title} className="w-full h-full" />
           </div>
