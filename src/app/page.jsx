@@ -2,7 +2,7 @@
 
 import Header from '@/components/header/header'
 import { Services } from '@/components/professional-services/services'
-import { ReserveMap } from '@/components/reserve-map/reserveMap'
+import { ReserveMap } from '@/components/reserve-roadmap/reserveMap'
 import { Reserved } from '@/components/reserved-car/reserved'
 
 function HomePage() {
