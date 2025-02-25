@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReserveMap } from './reserveMap'
+import { ReserveMap } from './reserveNav'
 import { ReserveCard } from './reserveCard'
 
 export const Reserved = () => {
